@@ -182,23 +182,6 @@
   resolved "https://registry.yarnpkg.com/@nodelib/fs.stat/-/fs.stat-1.1.3.tgz#2b5a3ab3f918cca48a8c754c08168e3f03eba61b"
   integrity sha512-shAmDyaQC4H92APFoIaVDHCx5bStIocgvbwQyxPRrbUY20V1EYTbSDchWbuwlMG3V17cprZhA6+78JfB+3DTPw==
 
-"@ozziest/apix@0.4.2":
-  version "0.4.2"
-  resolved "https://registry.yarnpkg.com/@ozziest/apix/-/apix-0.4.2.tgz#e26cf2d226a94888cc26d746e3fbf1e5c7b01488"
-  integrity sha512-ihAYIpm5o2yx9l4H1hvicrccQRWvQK2VSP5bdE+zqYxjJvv5A2GcDKiGu5wUxohMcStud0+LaZUopofU06Pc2w==
-  dependencies:
-    "@adonisjs/ace" "^5.0.8"
-    "@adonisjs/bodyparser" "^2.0.9"
-    "@adonisjs/fold" "^4.0.9"
-    "@adonisjs/framework" "^5.0.13"
-    "@adonisjs/ignitor" "^2.0.8"
-    "@adonisjs/lucid" "^6.1.3"
-    "@adonisjs/validator" "^5.0.6"
-    "@adonisjs/vow" "^1.0.17"
-    change-case "^4.1.1"
-    knex "^0.20.13"
-    pluralize "^8.0.0"
-
 "@sindresorhus/is@^0.7.0":
   version "0.7.0"
   resolved "https://registry.yarnpkg.com/@sindresorhus/is/-/is-0.7.0.tgz#9a06f4f137ee84d7df0460c1fdb1135ffa6c50fd"
@@ -245,6 +228,23 @@ acorn@^7.0.0, acorn@^7.1.1:
   version "7.1.1"
   resolved "https://registry.yarnpkg.com/acorn/-/acorn-7.1.1.tgz#e35668de0b402f359de515c5482a1ab9f89a69bf"
   integrity sha512-add7dgA5ppRPxCFJoAGfMDi7PIBXq1RtGo7BhbLaxwrXPOmw8gq48Y9ozT01hUKy9byMjlR20EJhu5zlkErEkg==
+
+adonisx@0.1.0:
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/adonisx/-/adonisx-0.1.0.tgz#710a3515ab0ec372965c232cc28b364b67b8ce42"
+  integrity sha512-2YdemcDTPpcTxN//rT390uA5K/GRKEfHqMnCw49DneI8iEJgl1ebdf/yDXPrITD29JTGDKb4gy02hgOb5X2F9g==
+  dependencies:
+    "@adonisjs/ace" "^5.0.8"
+    "@adonisjs/bodyparser" "^2.0.9"
+    "@adonisjs/fold" "^4.0.9"
+    "@adonisjs/framework" "^5.0.13"
+    "@adonisjs/ignitor" "^2.0.8"
+    "@adonisjs/lucid" "^6.1.3"
+    "@adonisjs/validator" "^5.0.6"
+    "@adonisjs/vow" "^1.0.17"
+    change-case "^4.1.1"
+    knex "^0.20.13"
+    pluralize "^8.0.0"
 
 ajv@^6.10.0, ajv@^6.10.2:
   version "6.12.0"
