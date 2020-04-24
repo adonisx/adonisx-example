@@ -1,8 +1,8 @@
 {
-  "name": "apix-boilerplate",
+  "name": "adonisx-example",
   "version": "4.1.0",
   "adonis-version": "4.1.0",
-  "description": "A restapi boilerplate for APIX",
+  "description": "A restapi boilerplate for AdonisX",
   "main": "index.js",
   "scripts": {
     "serve": "nodemon server.js",
@@ -12,13 +12,14 @@
   },
   "keywords": [
     "adonisjs",
+    "adonisx",
     "adonis-app"
   ],
   "author": "",
   "license": "UNLICENSED",
   "private": true,
   "dependencies": {
-    "adonisx": "0.1.0"
+    "adonisx": "0.2.1"
   },
   "devDependencies": {
     "eslint": "^6.8.0",

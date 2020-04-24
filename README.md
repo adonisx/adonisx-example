@@ -1,3 +1,3 @@
-# APIX Example Project
+# AdonisX Example Project
 
-This is an example project for APIX.
+This is an example project for AdonisX.

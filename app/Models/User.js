@@ -1,6 +1,6 @@
 'use strict'
 
-const XModel = use('APIX/Models/XModel')
+const XModel = use('AdonisX/Models/XModel')
 
 class User extends XModel {
   static boot () {

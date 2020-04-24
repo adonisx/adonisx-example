@@ -6,7 +6,7 @@
 |--------------------------------------------------------------------------
 |
 | You may create custom routes in here to handle more requests. You should
-| visit APIX documentation in order to understand how APIX route creator
+| visit AdonisX documentation in order to understand how AdonisX route creator
 | works.
 |
 | const Route = use('Route')

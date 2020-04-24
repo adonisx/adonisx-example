@@ -35,7 +35,7 @@ const globalMiddleware = [
 |
 */
 const namedMiddleware = {
-  idFilter: 'APIX/Middleware/IdFilter'
+  idFilter: 'AdonisX/Middleware/IdFilter'
 }
 
 /*

@@ -1,6 +1,6 @@
 'use strict'
 
-const XController = use('APIX/Controllers/XController')
+const XController = use('AdonisX/Controllers/XController')
 
 class MainController extends XController {
 }

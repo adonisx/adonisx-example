@@ -229,10 +229,10 @@ acorn@^7.0.0, acorn@^7.1.1:
   resolved "https://registry.yarnpkg.com/acorn/-/acorn-7.1.1.tgz#e35668de0b402f359de515c5482a1ab9f89a69bf"
   integrity sha512-add7dgA5ppRPxCFJoAGfMDi7PIBXq1RtGo7BhbLaxwrXPOmw8gq48Y9ozT01hUKy9byMjlR20EJhu5zlkErEkg==
 
-adonisx@0.1.0:
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/adonisx/-/adonisx-0.1.0.tgz#710a3515ab0ec372965c232cc28b364b67b8ce42"
-  integrity sha512-2YdemcDTPpcTxN//rT390uA5K/GRKEfHqMnCw49DneI8iEJgl1ebdf/yDXPrITD29JTGDKb4gy02hgOb5X2F9g==
+adonisx@0.2.1:
+  version "0.2.1"
+  resolved "https://registry.yarnpkg.com/adonisx/-/adonisx-0.2.1.tgz#5b1e2bad96bb37037c01b5725a6a35a983d69644"
+  integrity sha512-3H4M8GGVoYpkLS6j/BE09BTOiaIK0QGrmkh6DVQkh3uEScHbcqB1/BHXj65rvUkvPXWLoRBGJ4jBF8fs8DpOkg==
   dependencies:
     "@adonisjs/ace" "^5.0.8"
     "@adonisjs/bodyparser" "^2.0.9"
