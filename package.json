@@ -19,7 +19,7 @@
   "license": "UNLICENSED",
   "private": true,
   "dependencies": {
-    "adonisx": "0.2.1"
+    "adonisx": "^0.2.1"
   },
   "devDependencies": {
     "eslint": "^6.8.0",

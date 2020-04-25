@@ -26,7 +26,7 @@ class User extends XModel {
   }
 
   static get actions () {
-    return ['GET', 'POST', 'UPDATE', 'DELETE']
+    return ['GET', 'PUT', 'UPDATE', 'DELETE']
   }
 
   static get middlewares () {
