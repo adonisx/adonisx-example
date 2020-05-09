@@ -3,36 +3,44 @@
 const XModel = use('AdonisX/Models/XModel')
 
 class User extends XModel {
-  static boot () {
-    super.boot()
-  }
-
-  static get table () {
-    return 'users'
-  }
-
   static get hidden () {
-    return ['password']
+    return ['password_salt', 'password_hash']
   }
 
   static get fillable () {
-    return ['email']
+    return {
+      POST: ['email', 'name', 'surname'],
+      PUT: ['email', 'name', 'surname']
+    }
   }
 
   static get validations () {
     return {
-      email: 'required|email|max:100'
+      POST: {
+        email: 'required|email|max:100',
+        name: 'required|max:30',
+        surname: 'required|max:30',
+        password: 'required|min:6|max:20'
+      },
+      PUT: {
+        name: 'required|max:30',
+        surname: 'required|max:30'
+      }
     }
   }
 
   static get actions () {
-    return ['GET', 'PUT', 'UPDATE', 'DELETE']
+    return ['GET', 'POST', 'PUT']
   }
 
   static get middlewares () {
     return [
-      { method: 'DELETE', middleware: 'App/Middleware/AdminMiddleware' }
+      { method: 'GET', middleware: 'App/Middleware/AuthMiddleware' }
     ]
+  }
+
+  posts () {
+    return this.hasMany('App/Models/Post')
   }
 }
 
